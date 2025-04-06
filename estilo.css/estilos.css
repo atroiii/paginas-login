@@ -1,0 +1,12 @@
+body{
+    background-image: url(../img/fundo.jpg); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+
+}
+input[type="radio"]{
+    margin: 0;
+}

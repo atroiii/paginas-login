@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilo.css/estilos.css">
+<head>
+<body>
+    <h1>Formulário Cadastro de Curso de T.I </h1>
+    <form>
+        <label for="nome"><b>Nome Completo:</b></label>
+        <input type="text id="nome" name="nome" placeholder="Digite seu nome">
+    </form>
+    <br>
+    <form>
+        <form action="#" method="post">
+            <label for="dob"><b>Data de Nascimento:</b></label>
+            <input type="date" id="dob" name="dob" required>
+        </form>
+        <br>
+        <form>
+            <label for="email"><b>E-mail:</b></label>
+            <input id="email" name="email" placeholder="Digite seu e-mail">
+        </form>
+        <br>
+        <form>
+            <label for="telefone"><b>Telefone:</b></label>
+            <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone">
+        </form>
+        <br>
+        <form>
+            <label for="endereco"><b>Endereço:</b></label>
+            <input type="text" id="endereco" name="endereco" placeholder="Digite seu endereço">
+        </form>
+        <br>
+        <form>
+            <label for="cidade"><b>Cidade:</b></label>
+            <input type="text" id="cep" name="cidade" placeholder="Digite sua cidade">
+        </form>
+        <br>
+        <form>
+            <label for="estado"><b>Estado:</b></label>
+            <select id="estado" name="estado">
+                <option value="mg">Minas Gerais</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="sp">Sao Paulo</option>
+        </select>
+    </form>
+    <br>
+        <form>
+            <legend><b>Gênero:</b></legend>
+            
+            <label for="option1">
+                <input type="radio" id="option1" name="genero" value="masculino"> Masculino
+            </label>
+            <label for="option2">
+                <input type="radio" id="option2" name="genero" value="feminino"> Feminino
+            </label>
+            <label for="option3">
+                <input type="radio" id="option3" name="genero" value="outro"> Outro
+            </label>
+        </form>
+    
+    <br>
+        <form>
+            <label for="termos"><b>Aceito os Termos de Uso</b></label>
+            <input type="checkbox" id="termos" name="termos" value="aceito">    
+        </form>
+    <br>
+    </form>
+    <form>
+        <label for="curso"><b>Curso de Interesse</b></label>
+        <select id="curso" name="curso">
+            <option value="superior">Ciência da Computação</option>
+            <option value="superior">Engenharia de Software</option>
+            <option value="superior">Sistemas de Informação</option>
+            <option value="superior">Análise e Desenvolvimento de Sistemas</option>
+        </select>
+    </form>
+    <br>
+    <form>
+        <legend for="Comentarios"><b>Comentários:</b></legend>
+        <textarea id="Comentarios" name="Comentarios" rows="4" cols="50"></textarea>
+    </form>
+    <br>
+    <form>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
+
+
+
+            
+
+
+    
